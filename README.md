@@ -73,9 +73,9 @@ Recommended use of relative paths, for example: [Relative path test (MD file)](.
 | Header | Title |
 | Paragraph | Text | 
 
-Here's a sentence with a footnote. [^1]
+Here's a sentence with a footnote.<sup id="a1">[1](#f1)</sup>
 
-[^1]: This is the footnote. 
+<b id="f1">1</b> This is the footnote (but needs to be created manually, and pay attention to the connections via IDs). [↩](#a1)
 
 ### Heading with an ID {#custom-id}
 
